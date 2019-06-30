@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+
+{% block titleblock %}
+    Report
+{% endblock titleblock %}
+
+
+{% block content %}
+
+<div>
+    <h2>
+    {% block reportHeading %}
+        
+    {% endblock reportHeading %}
+        </h2>
+
+    <hr>
+
+    <h3>Success</h3>
+
+    <table>
+        <thead>
+                <th>
+                    name
+                </th>
+                <th>
+                    status
+                </th>
+                <th>
+                    group
+                </th>
+        </thead>
+        <tbody>
+            
+            {% block SuccessTableBody %}
+                
+            {% endblock SuccessTableBody %}
+                
+        </tbody>
+        
+    </table>
+
+    <hr>
+
+    <h3>Failed</h3>
+
+    <table>
+        <thead>
+                <th>
+                    name
+                </th>
+                <th>
+                    status
+                </th>
+                <th>
+                    group
+                </th>
+        </thead>
+        <tbody>
+            
+            {% block FailedTableBody %}
+                
+            {% endblock FailedTableBody %}
+                
+        </tbody>
+        
+    </table>
+
+    <hr>
+
+    
+    {% block buttons %}
+        
+    {% endblock buttons %}
+        
+</div>
+    
+{% endblock content %}
+    

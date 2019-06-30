@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+
+{% block titleblock %}
+   send whatsapp message
+{% endblock titleblock %}
+
+
+{% block js %}
+    <script>
+    $(document).ready(function(){
+
+        $('#usernames_div').hide();
+        $('#usernames_div textarea').prop('disabled',true);
+        $('#usernames_div input').prop('disabled',true);
+        $('#send_all').show();
+
+        $('#usernames_div').hide();
+        $('#usernames_div textarea').prop('disabled',true);
+        $("#send_checkbox").click(()=>{
+            if($("#send_checkbox").is(":checked")){
+                $('#usernames_div').show();
+                $('#usernames_div textarea').prop('disabled',false);
+                $('#usernames_div input').prop('disabled',false);
+
+            }
+            else{
+                $('#usernames_div').hide();
+                $('#usernames_div textarea').prop('disabled',true);
+                $('#usernames_div input').prop('disabled',true);
+                $('#send_all').show();
+            }
+        })
+
+
+    });
+    </script>
+{% endblock js %}
+    
+
+
+{% block content %}
+    <div>
+            <form action="/app/sendWhatsApp/" method="post">
+                {% csrf_token %}
+                {{ messageform }}
+                <label for = "send_checkbox">send to specific</label>
+                <input id = "send_checkbox" type="checkbox" value="send to specific">
+                    <input id="send_all" type="submit" value="send all">
+                <div id="usernames_div">
+                    <hr>
+                    {{ usernamesform }}
+                    <input type="submit" value="Send to specified users">
+                </div>
+            
+            </form>
+
+        
+    </div>
+{% endblock content %}
+    

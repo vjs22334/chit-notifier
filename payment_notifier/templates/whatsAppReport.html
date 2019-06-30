@@ -1,0 +1,52 @@
+{% extends 'report.html' %}
+
+
+{% block ReportHeading %}
+WhatsAppReport    
+{% endblock ReportHeading %}
+ 
+
+
+{% block SuccessTableBody %}
+
+
+{% for message in successMessages %}
+<tr>
+        <td>{{message.name}}</td>
+        <td>{{message.get_status_display}}</td>
+        <td>{{message.group}}</td>
+            
+</tr>
+
+{% endfor %}
+    
+    
+{% endblock SuccessTableBody %}
+    
+
+
+{% block FailedTableBody %}
+
+{% for message in failedMessages %}
+<tr>
+        <td>{{message.name}}</td>
+        <td>{{message.get_status_display}}</td>
+        <td>{{message.group}}</td>
+            
+</tr>
+    
+{% endfor %}
+    
+{% endblock FailedTableBody %}
+
+
+{% block buttons %}
+    <a href="/app/WhatsAppReport?clear=True">
+    <button>clear</button>
+    </a>
+    <a href="/app/sendWhatsAppMessages">
+        <button>retry</button>
+    </a>    
+{% endblock buttons %}
+    
+    

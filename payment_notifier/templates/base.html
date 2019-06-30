@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        
+        {% block titleblock %}
+        {% endblock titleblock %}
+            
+    </title>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+ 
+
+    {% block js %}   
+    {% endblock js %}   
+
+    
+    {% block css %}     
+    {% endblock css %}
+        
+
+</head>
+
+<body>
+
+    <h1>Chit Messaging System</h1>
+    <hr>
+    <div>
+        <ol>
+            <li>
+                <a href="#">Sms</a>
+            </li>
+            <li>
+                <a href="#">whatsapp</a>
+            </li>
+            <li>
+                <a href="#">email</a>
+            </li>
+        </ol>
+    </div>
+
+    <hr>
+    
+    {% block content %}
+        
+    {% endblock content %}
+        
+</body>
