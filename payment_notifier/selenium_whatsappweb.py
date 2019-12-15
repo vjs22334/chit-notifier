@@ -48,7 +48,9 @@ def send_messages(recepients):
     for recepient in recepients:
         search_input = browser.find_element_by_class_name('_2zCfw')
         search_input.click() #contact search bar
-        
+
+        search_input.clear()
+        time.sleep(1)
         search_input.send_keys(recepient['number'])
         time.sleep(5)
         search_input.send_keys('\n')
@@ -87,6 +89,7 @@ def send_messages(recepients):
             messageToSend = WhatsappMessagesToSend.objects.get(name=recepient['name'])
             messageToSend.status = "5"
             messageToSend.save()
+        browser.quit()
 
 
 if __name__ == "__main__":

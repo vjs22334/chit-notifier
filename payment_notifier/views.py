@@ -19,7 +19,7 @@ def WhatsAppReport(request):
         WhatsappMessagesToSend.objects.all().delete()
         return redirect(sendWhatsapp)
     else:
-        import pdb; pdb.set_trace()
+        #import pdb; pdb.set_trace()
         successMessages = WhatsappMessagesToSend.objects.filter(status = "5")
         failedMessages = WhatsappMessagesToSend.objects.exclude(status = "5")
         return render(request,"whatsAppReport.html",{

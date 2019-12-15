@@ -323,3 +323,90 @@ console.error: BroadcastService:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
 
 1561906854613	Marionette	INFO	Stopped listening on port 41855
+1561907202107	Marionette	INFO	Stopped listening on port 37259
+1561907205284	Marionette	INFO	Stopped listening on port 41911
+[Parent 48529, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-DOz2lS/firefox-67.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 47243, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-DOz2lS/firefox-67.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+1561907211913	Marionette	INFO	Stopped listening on port 36383
+1561907212350	Marionette	INFO	Stopped listening on port 36689
+1576420546216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AODNSewIUQJr"
+1576420548402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576420548403	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576420548404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576420548404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576420554204	Marionette	INFO	Listening on port 37243
+1576420554294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+1576420566588	Marionette	INFO	Stopped listening on port 37243
+1576420784861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zoCYwOCfjRJm"
+1576420786173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576420786174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576420786174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576420786174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576420790042	Marionette	INFO	Listening on port 40153
+1576420790106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+1576420814875	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576421066709	Marionette	INFO	Stopped listening on port 40153
+1576421138806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OkVHQPHdFGlP"
+1576421139935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576421139936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576421139936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576421139936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576421143338	Marionette	INFO	Listening on port 33681
+1576421143354	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+1576421159008	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576421173759	Marionette	INFO	Stopped listening on port 33681
+[Parent 23102, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jcHqPw/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Parent 23102, Gecko_IOThread] WARNING: pipe error (151): Connection reset by peer: file /build/firefox-jcHqPw/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1576424039282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8g9KYM3NyODD"
+1576424039999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576424039999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576424039999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576424039999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576424043032	Marionette	INFO	Listening on port 41191
+1576424043129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+1576424068494	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576424080804	Marionette	INFO	Stopped listening on port 41191
+[Parent 23944, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jcHqPw/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Parent 23944, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jcHqPw/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+1576424097509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pGDmPD67deeH"
+1576424098609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576424098610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576424098611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576424098611	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576424102407	Marionette	INFO	Listening on port 45869
+1576424102457	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+1576424126317	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576424138463	Marionette	INFO	Stopped listening on port 45869
+1576424210285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tHtIRxGz7q7D"
+1576424211045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1576424211045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1576424211046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1576424211046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1576424213879	Marionette	INFO	Listening on port 40771
+1576424213990	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/OfflineAppsChild.jsm, line 32: TypeError: manifestURI is null
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.23ffa35bc714b063c767.js, line 2: unreachable code after return statement
+1576424233756	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1576424246127	Marionette	INFO	Stopped listening on port 40771
+[Parent 24670, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-jcHqPw/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
