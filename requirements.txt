@@ -1,4 +1,4 @@
-Django==2.1
+Django==2.1.15
 numpy==1.16.4
 pandas==0.24.2
 pkg-resources==0.0.0
